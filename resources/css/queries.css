@@ -91,19 +91,25 @@
 @media only screen and (max-width: 480px) {
     body { font-size: 14px; }
     
-    .main-nav li:last-child { padding: 10px; }
-     
-    .project-list li { 
-        font-size: 150%; 
-        padding: 20px;
-        margin: 0 30px;
+    .main-nav {display: none;}
+    
+    .btn {
+        margin-top: 30px;
+        font-size: 70%
     }
+    
+    .photo-of-me {
+        width: 20%;
+        height: auto;
+    }
+    
+    .education-image {display: none;}
     
     .signature p { font-size: 80%; }
     
     .signature img { width: 40px; }
     
-    #Newspaper { width: 80%; }
+    #Newspaper { width: 60%; }
     
     #web-image {
         width: 70%;
