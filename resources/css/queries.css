@@ -1,0 +1,128 @@
+/* From big tablets to 1200px */
+@media only screen and (max-width: 1200px) {
+    .interface-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+}
+
+/* Small tablets to big tablet: 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    
+    .main-nav { margin-top: 3%; }
+
+    .main-nav li { margin-left: 20px; }
+    
+    .main-nav li:last-child { padding-right: 30px; }
+    
+    .motivational-quote {
+        width: 80%;
+        font-size: 131%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .education-table { max-width: 100%; }
+    
+    td { font-size: 90%; }
+    
+    .education-image {     
+        width: 60%;
+        padding-left: 110px;
+    }
+
+    .image-container-middle { margin: 1% auto; }
+    
+    .project-list li { font-size: 120%; }
+    
+    #section-skills { padding: 20px; }
+
+}
+
+/* Small phones to small tablets: 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row,
+    .interface-box { padding: 0 4%; }
+    
+
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .motivational-quote { font-size: 150%; }
+    
+    .education-table { max-width: 600px; }
+    
+    .education-table .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    .education-table th { font-size: 140% }
+    
+    thead { font-size: 130%; }
+    
+    td { font-size: 110%; }
+    
+    .education-image {     
+        width: 60%;
+        padding-left: 200px;
+    }
+    
+    .box-one { padding-bottom: 1px; }
+
+    .box-two { padding-bottom: 1px; }
+    
+    .project-list li { font-size: 100%; }
+    
+    #Newspaper { width: 100%; }
+}
+
+/* Small Phones */
+@media only screen and (max-width: 480px) {
+    body { font-size: 14px; }
+    
+    .main-nav li:last-child { padding: 10px; }
+     
+    .project-list li { 
+        font-size: 150%; 
+        padding: 20px;
+        margin: 0 30px;
+    }
+    
+    .signature p { font-size: 80%; }
+    
+    .signature img { width: 40px; }
+    
+    #Newspaper { width: 80%; }
+    
+    #web-image {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    #php-image {
+        width: 30%;
+        margin: 0 auto;
+    }
+    
+    .image-flag { width: 50%; }
+    
+    #python-image {
+        margin-top: 20px;
+        width: 30%;
+    }
+    
+    #skills-background-five h5 { margin-bottom: 20px; }
+    
+    #android-image { width: 30%; }
+}
