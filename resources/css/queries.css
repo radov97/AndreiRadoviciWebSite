@@ -111,6 +111,11 @@
     
     #Newspaper { width: 60%; }
     
+    #project-overview img {
+        width: 50%;
+        height: auto;
+    }
+    
     #web-image {
         width: 70%;
         margin: 0 auto;
